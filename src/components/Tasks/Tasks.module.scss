@@ -1,0 +1,18 @@
+.container, .container-header {
+  display: flex;
+  .name, .descr, .priority {
+    width: 200px;
+  }
+  width: 600px;
+}
+
+.container {
+  border: 1px black solid;
+  &:hover {
+    border: 1px blue solid;
+  }
+}
+
+.container-header {
+  font-weight: bold;
+}
